@@ -6,13 +6,19 @@ type SkillsSectionProps = {
 };
 
 export function SkillsSection({ data }: SkillsSectionProps) {
+  // 1. Tulis semua skill kamu di sini, pisahkan dengan spasi biasa
+  const mySkills = "UI/UX Illustration React JavaScript Tailwind";
+
+  // 2. Tulis kata yang mau diberi warna khusus (misal software utama kamu)
+  const myHighlights = ["UI/UX", "Illustration", "React"];
+
   return (
     <div className="overflow-hidden flex h-full flex-col [--falling-text-size:1.3rem] md:[--falling-text-size:1.4rem] xl:[--falling-text-size:1.5rem]">
       <h3 className="shrink-0 heading-section-sm">Skills</h3>
       <FallingText
         className="min-h-10 flex-1"
-        text={data.skills}
-        highlightWords={data.highlights}
+        text={mySkills} // Ganti ke variabel baru
+        highlightWords={myHighlights} // Ganti ke variabel baru
         highlightClass="highlighted"
         trigger="click"
         backgroundColor="transparent"

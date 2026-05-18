@@ -23,7 +23,7 @@ export function AboutSection({
           <div className="flex shrink-0 items-center justify-center py-6 md:w-2/5 md:py-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={data.image}
+              src="/Head.svg"
               alt={data.imageAlt}
               className="h-48 w-48 object-contain sm:h-56 sm:w-56 md:h-72 md:w-72 lg:h-80 lg:w-80"
             />
@@ -33,7 +33,7 @@ export function AboutSection({
               {`About Me`}
             </SectionHeading_Clickable>
             <p className="text-body leading-relaxed text-black md:text-lg md:leading-relaxed">
-              {data.text}
+              I am a creative Graphic Designer with a strong passion for visual storytelling and brand identity. I specialize in turning complex ideas into clean, impactful, and aesthetically pleasing designs that capture attention and communicate effectively across digital platforms. Constantly inspired by contemporary art and design trends, I always strive to push creative boundaries, pay close attention to typography and layouts, and deliver high-quality visual experiences.
             </p>
           </div>
         </div>
@@ -53,12 +53,14 @@ export function AboutSection({
         <div className="relative h-24 w-24 shrink-0 sm:h-32 sm:w-32 md:h-40 md:w-40 xl:h-56 xl:w-56">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={data.image}
-            alt={data.imageAlt}
-            className="h-full w-full object-contain"
+            src="/Head.svg"
+            alt="just a head"
+            className="h-auto w-full p-5 object-contain"
           />
         </div>
-        <p className="flex-1 text-body text-black">{data.text}</p>
+        <p className="flex-1 text-[19px] text-body text-black">
+          I am a creative Graphic Designer with a strong passion for visual storytelling and brand identity. I specialize in turning complex ideas into clean, impactful, and aesthetically pleasing designs that capture attention and communicate effectively across digital platforms. Constantly inspired by contemporary art and design trends, I always strive to push creative boundaries, pay close attention to typography and layouts, and deliver high-quality visual experiences.
+        </p>
       </div>
     </div>
   );

@@ -43,10 +43,18 @@ export const projectCategories: ProjectCategory[] = [
     category: "Web Development",
     projects: [
       {
-        title: "XXX",
-        image: "/projects/placeholder.png",
-        techStack: ["GSAP", "Three.js"],
-        href: "#",
+        title: "Siyoyamu",
+        image: "/projects/Siyoyamu.svg",
+        techStack: ["React", "Tailwind CSS"],
+        href: "https://shiyo-yamu.vercel.app/",
+        decs: "A modern Japanese restaurant landing page with a clean UI, showcasing the restaurant's ambiance and menu. Built with React and Tailwind CSS for a responsive and visually appealing design."
+      },
+      {
+        title: "MonoStroke",
+        image: "/projects/Mono.svg",
+        techStack: ["React", "Tailwind CSS"],
+        href: "https://mono-stroke.vercel.app/",
+        decs: "An online drawing course platform with a clean UI, offering structured art lessons and tutorials. Built with React and Tailwind CSS for a responsive and creative design.",
       },
     ],
   },

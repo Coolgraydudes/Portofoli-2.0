@@ -27,6 +27,7 @@ export type Project = {
   image: string;
   techStack: string[];
   href?: string;
+  decs?: string;
 };
 
 export type ProjectCategory = {

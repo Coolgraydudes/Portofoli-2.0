@@ -65,6 +65,7 @@ export function WorkSection({
                   image={project.image}
                   techStack={project.techStack}
                   href={project.href}
+                  description={project.decs}
                 />
               ))}
             </div>

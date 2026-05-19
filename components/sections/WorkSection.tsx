@@ -33,7 +33,8 @@ export function WorkSection({
   }, [data]);
 
   return (
-    <div className="relative h-full overflow-hidden">
+    // FIX: overflow-hidden diubah menjadi overflow-visible saat EXPAND agar halaman bisa di-scroll bebas ke bawah
+    <div className={`relative w-full ${isExpanded ? "h-auto overflow-visible" : "h-full overflow-hidden"}`}>
       <div className="flex items-center justify-between">
         <SectionHeading_Clickable onClick={onExpand}>
           Work
@@ -65,7 +66,7 @@ export function WorkSection({
                   image={project.image}
                   techStack={project.techStack}
                   href={project.href}
-                  description={project.decs}
+                  description={project.decs} // <-- Mengirim data deskripsi ke Card
                 />
               ))}
             </div>

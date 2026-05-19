@@ -5,7 +5,7 @@ type ProjectCardProps = {
   image: string;
   techStack: string[];
   href?: string;
-  description?: string; // <-- Tambahkan prop deskripsi di sini
+  description?: string; // Menerima deskripsi singkat project
 };
 
 export function ProjectCard({
@@ -13,7 +13,7 @@ export function ProjectCard({
   image,
   techStack,
   href,
-  description, // <-- Terima prop deskripsi
+  description,
 }: ProjectCardProps) {
   const CardWrapper = href ? "a" : "div";
   const cardProps = href

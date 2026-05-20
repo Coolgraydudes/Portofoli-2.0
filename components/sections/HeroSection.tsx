@@ -17,7 +17,7 @@ export function HeroSection({ data }: HeroSectionProps) {
         animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
         exit={{ opacity: 0, scale: 1.1, filter: "blur(4px)" }}
         staggerDuration={0.02}
-        splitLevelClassName="overflow-hidden text-[24px] font-semibold pb-0.5 sm:pb-1 md:pb-1"
+        splitLevelClassName="overflow-hidden text-[24px] md:text-[55px] font-semibold pb-0.5 sm:pb-1 md:pb-1"
         transition={{ type: "tween", duration: 1.0, ease: "easeOut" }}
         rotationInterval={4000}
       />

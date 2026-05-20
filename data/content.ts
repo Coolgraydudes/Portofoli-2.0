@@ -22,10 +22,35 @@ export const myAchievements = [
     description: "Proudly secured 3rd place in the prestigious Liwaul Furqan Championship poster competition."
   },
   {
-    title: "Bento Portfolio Project Released",
-    date: "Desember 2024",
-    description: "Berhasil mendeploy dan merilis portofolio interaktif berbasis Next.js."
-  }
+    title: "Leraning how to bulid a website with wordpress and elementor",
+    date: "July 2023",
+    description: "Successfully expanding my skill set by learning to build dynamic websites with WordPress and Elementor."
+  },
+  {
+    title: "Make a ecommerce website with wordpress and elementor",
+    date: "February 2024",
+    description: "A fully functional e-commerce website built with WordPress and Elementor, featuring a seamless shopping experience and a modern UI designed to drive engagement."
+  },
+  {
+    title: "Start learning about HTML & CSS",
+    date: "August 2024",
+    description: "Excitedly diving into the world of coding, starting with the core building blocks of the web: HTML & CSS."
+  },
+  {
+    title: "Learn JavaScript",
+    date: "March 2025",
+    description: "Leveling up my web development skills by diving deep into JavaScript to build interactive and dynamic web experiences."
+  },  
+  {
+    title: "participate in the Adzfest 2024 poster competition",
+    date: "April 2025",
+    description: "Challenged my design limits and gained valuable experience by competing in the Adzfest 2024 poster design challenge."
+  },  
+  {
+    title: "Wait I still searching for may achievements",
+    date: "Now",
+    description: "Still on the lookout for more achievements to add to my journey, as I continue to grow and learn in the IT field."
+  },
 ];
 
 // ─── Hero ────────────────────────────────────────────────────

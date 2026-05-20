@@ -8,7 +8,7 @@ type ContactSectionProps = {
 export function ContactSection({ data }: ContactSectionProps) {
   // Daftar kontak manual kamu yang sudah dirapikan link-nya
   const myContacts = [
-    { value: "izzamnuddinalqassam@gmail.com", href: "mailto:izzamnuddinalqassam@gmail.com" },
+    { value: "Gmail", href: "mailto:izzamnuddinalqassam@gmail.com" },
     { value: "GitHub", href: "https://github.com/Coolgraydudes" },
     { value: "LinkedIn", href: "https://www.linkedin.com/in/izzamnuddin-al-qassam-80958337b/" }, // Spasi diganti strip biar link valid
     { value: "Instagram", href: "https://instagram.com/coolgreydude" }, // Nanti ganti username IG-mu di sini ya
